@@ -67,7 +67,7 @@ function App() {
           placeholder="Search weather for a city"
           name="weatherCity"
           onChange={(e) => {
-            setSearchTerm(e.target.value.trim());
+            setSearchTerm(e.target.value);
           }}
           value={searchTerm}
           className="w-full sm:w-4/5 ring-1 ring-slate-200 rounded-md px-4 py-2 focus:ring-0"
